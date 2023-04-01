@@ -18,20 +18,20 @@
   background-size: cover;
 }
 
-.header__logo {
-  position: absolute;
-  left: 30px;
-  top: 30px;
-  width: 125px;
-  height: 142px;
-}
-
 .nav {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: flex-end;
 }
+
+/* .logo {
+  position: absolute;
+  left: 30px;
+  top: 30px;
+  width: 125px;
+  height: 142px;
+} */
 
 .nav__links {
   display: flex;
