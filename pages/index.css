@@ -20,18 +20,19 @@
 
 .nav {
   display: flex;
+  position: relative;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: flex-end;
   align-items: flex-end;
 }
 
-/* .logo {
+.logo {
   position: absolute;
   left: 30px;
   top: 30px;
   width: 125px;
   height: 142px;
-} */
+}
 
 .nav__links {
   display: flex;
@@ -42,6 +43,8 @@
   align-items: center;
   padding: 0px;
   list-style-type: none;
+  z-index: 1;
+  margin-left: auto;
 }
 
 .header__span-accent {
@@ -76,6 +79,7 @@
   max-height: 568px;
   top: 124px;
   right: 5px;
+  z-index: 0;
 }
 
 .header__paragraph {
