@@ -8,6 +8,9 @@
 }
 
 .header {
+  height: 100vh;
+  min-height: 720px;
+  max-height: 800px;
   background-color: #ffff;
   background-image: url(../images/background_header.svg);
   background-repeat: no-repeat;
@@ -15,10 +18,20 @@
   background-size: cover;
 }
 
-.header__logo {
-
+.nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-end;
 }
 
-.nav__link {
-  
+.nav__links {
+  display: flex;
+  margin-top: 30px;
+  margin-bottom: 0;
+  margin-right: 80px;
+  column-gap: 20px;
+  align-items: center;
+  padding: 0px;
+  list-style-type: none;
 }
