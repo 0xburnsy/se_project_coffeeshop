@@ -157,20 +157,19 @@
 }
 
 .recipes__videos {
+  padding-top: 80px;
+  padding-bottom: 215px;
   display: flex;
-  flex-direction: row;
   justify-content: center;
   align-items: center;
-  margin: 0 auto;
-  width: 480px;
-  height: 273px;
 }
 
 .recipes__iframe {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  height: 100%;
   row-gap: 40px;
-}
-
-.recipes__video-caption {
-  padding-top: 24px;
-  padding-bottom: 0;
+  padding-bottom: 24px;
 }
