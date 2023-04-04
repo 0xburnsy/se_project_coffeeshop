@@ -86,30 +86,6 @@
   color: #2F80ED;
 }
 
-/* .header__title {
-  display: flex;
-  max-width: 729px;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 60px;
-  line-height: 72px;
-  position: relative;
-  top: 202px;
-  left: 80px;
-} */
-
-/* .header__span-accent {
-  max-width: 729px;
-  margin-left: 0px;
-  margin-top: 232px;
-  font-family: "Noto Serif";
-  font-style: italic;
-  font-weight: normal;
-  font-size: 60px;
-  line-height: 72px;
-  color: #2F80ED;
-} */
-
 .header__description {
   position: relative;
   left: 80px;
