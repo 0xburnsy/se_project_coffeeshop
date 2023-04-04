@@ -24,10 +24,10 @@
     <img src="./images/logo_coffee_shop.svg" alt="logo" class="logo">
     <nav class="nav">
     <ul class="nav__links">
-      <li>Menu</li>
-      <li>Recipes</li>
-      <li>Book a Table</li>
-      <li>Contacts</li>
+      <li> <a class="nav__link" href="#recipes" id="recipes-link"> Recipes </a></li>
+      <li> <a class="nav__link" href="#reservation" id="reservation-link"> Book a Table </a></li>
+      <li> <a class="nav__link" href="#contac" id="menu-link"> Menu </a></li>
+      <li> <a class="nav__link" href="#contacts" id="contacts-link">Contacts </a></li>
     </ul>
     </nav>
     <div class="header__title-elements">
@@ -37,36 +37,43 @@
     <p class="header__description">Welcome to our study zone! We've got the coffee to energize you and
     the cozy vibes to help you get creative.</p>
     <img src="./images/inside_coffee_shop.png" alt="coffee-shop" class="header__image">
+    <div class="header__footer">
+    <div class="header__footer"></div>
     <div class="header__paragraph">
       <span class="header__footer-hours-title">Hours:</span>
       <span class="header__footer-hours-weekday">Monday – Friday (10:00 – 19:00)</span>
       <span class="header__footer-hours-weekend">Saturday – Sunday (11:00 – 18:00)</span>
     </div>
     <div class="header__footer-address">200 Success Avenue, The Town of Practicum</div>
+    </div>
   </header>
   <main class="content">
-    <section class="recipes">
+    <section class="recipes" id="recipes">
       <h1 class="recipes__title">Recipes</h1>
       <p class="recipes__subtitle">Check out some recipes we've collected for
       your home-brewing convenience:</p>
-      <section class="recipes__videos">
+      <div class="recipes__videos">
+      <div class="recipes__videos-aeropress">
       <iframe class="recipes__iframe" width="560" height="315" src="https://www.youtube.com/embed/j6VlT_jUVPc" title="YouTube video player"
         frameborder="0"
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
         allowfullscreen></iframe>
         <p class="recipes__video-caption">Aeropress
-          recipe&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;~5
+          recipe&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;~5
           min</p>
+        </div>
+        <div class="recipes__videos-french">
         <iframe class="recipes__iframe" width="560" height="315" src="https://www.youtube.com/embed/st571DYYTR8" title="YouTube video player"
           frameborder="0"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
           allowfullscreen></iframe>
-          <p class="recipes__video-caption">French press recipe&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;~15 min</p>
-      </section>
+          <p class="recipes__video-caption">French press recipe&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;~15 min</p>
+        </div>
+        </div>
     </section>
-    <section class="reservation"></section>
-    <section class="menu"></section>
-    <section class="about"></section>
+    <section class="reservation" id="reservation"></section>
+    <section class="menu" id="menu"></section>
+    <section class="contacts" id="contacts"></section>
   </main>
   <footer class="footer"></footer>
   </div>
