@@ -1,0 +1,64 @@
+.menu {
+  background-color: #fff;
+  background-image: url(../images/background_menu.svg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
+.menu__title {
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  max-width: 780px;
+  padding-top: 100px;
+  padding-bottom: 24px;
+}
+
+.menu__subtitle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: auto;
+  padding-top: 0;
+  padding-bottom: 100px;
+  max-width: 780px;
+}
+
+.menu__cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding-top: 0;
+  padding-bottom: 100px;
+}
+
+.card {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  row-gap: 100px;
+  flex-wrap: wrap;
+  margin: auto;
+  width: 540px;
+}
+
+.card__title {
+  text-align: left;
+  padding-bottom: 32px;
+}
+
+.card__list-item {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 16px;
+}
+
+.card__baked {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  width: 540px;
+}
