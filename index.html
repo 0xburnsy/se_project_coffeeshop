@@ -66,7 +66,32 @@
         </div>
         </div>
     </section>
-    <section class="reservation" id="reservation"></section>
+    <section class="reservation" id="reservation">
+      <h3 class="reservation__title">Book a Table</h3>
+      <form class="reservation__form">
+        <fieldset class="form__fieldset" >
+          <label for="name" class="form__label">Name *</label>
+          <input type="text" required class="form__input" id="name" placeholder="Name Surname">
+        </fieldset>
+        <fieldset class="form__fieldset">
+          <label for="guest" class="form__label">Number of Guests *</label>
+          <input type="number" required class="form__input" id="guest" placeholder="1-8">
+        </fieldset>
+        <fieldset class="form__fieldset">
+          <label for="date" class="form__label">Date & time *</label>
+          <input type="datetime-local" required class="form__input" id="date">
+        </fieldset>
+        <fieldset class="form__fieldset">
+          <label for="email" class="form__label">Your email *</label>
+          <input type="email" required class="form__input" id="email" placeholder="email@email.com">
+        </fieldset>
+        <button type="submit" class="form__button">Book a Table</button>
+        <fieldset class="form__fieldset">
+          <input type="checkbox" required name="checkbox" id="checkbox" class="form__checkbox">
+          <label for="checkbox">I agree with the terms of use</label>
+        </fieldset>
+      </form>
+    </section>
     <section class="menu" id="menu"></section>
     <section class="contacts" id="contacts"></section>
   </main>
