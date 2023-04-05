@@ -47,6 +47,7 @@
 .card__title {
   text-align: left;
   padding-bottom: 32px;
+  margin: 0;
 }
 
 .card__list-item {
