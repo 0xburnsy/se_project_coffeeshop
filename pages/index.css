@@ -272,6 +272,8 @@
   height: 60px;
   border-radius: 4px;
   margin-bottom: 32px;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 .form__input::placeholder{
