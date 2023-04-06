@@ -12,7 +12,9 @@
 }
 
 .about {
+  display: flex;
   position: relative;
+  justify-content: flex-end;
   overflow: hidden;
   background-color: #0A2850;
   color: #ffffff;
@@ -73,4 +75,9 @@
   padding-top: 0;
   padding-bottom: 20px;
   margin: 0;
+  font-family: "Noto Serif";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
 }
