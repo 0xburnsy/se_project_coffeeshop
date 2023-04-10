@@ -92,12 +92,3 @@
 .card__list-divider {
   flex-grow: 1;
 }
-
-.card-baked-goods {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin: 0 auto; /* added */
-  width: 540px;
-  padding-top: 100px;
-}
