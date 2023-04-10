@@ -36,8 +36,14 @@
   line-height: 30px;
 }
 
+.menu__row {
+  display: flex;
+  justify-content: space-between;
+}
+
 .menu__cards {
   display: flex;
+  flex-direction: column;
   flex-wrap: wrap;
   justify-content: space-between;
   padding-top: 0;
@@ -89,9 +95,9 @@
 
 .card__baked {
   display: flex;
-  margin: auto;
-  width: 540px;
-  justify-content: center;
   align-items: center;
+  justify-content: center;
+  margin: 0 auto; /* added */
+  width: 540px;
   padding-top: 100px;
 }
