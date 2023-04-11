@@ -65,6 +65,30 @@
         </div>
         </div>
     </section>
+<section class="reservation">
+  <h3 class="reservation__title">Book a table</h3>
+    <form class="reservation__form">
+      <fieldset class="form__fieldset">
+        <label class="form__label" for="name">Name *</label>
+        <input class="form__input" type="text" id="name" name="name" placeholder="Name Surname">
+
+        <label class="form__label" for="guests">Number of guests *</label>
+        <input class="form__input" type="number" id="guests" name="guests" placeholder="1-8">
+
+        <label class="form__label" for="guests">Date & time *</label>
+        <input class="form__input" type="datetime-local" id="datetime-local" name="datetime-local">
+
+        <label class="form__label" for="email">Your email *</label>
+        <input class="form__input" type="email" id="email" name="email" placeholder="email@email.com">
+      </fieldset>
+      <button class="form__button">Book a Table</button>
+      <label>
+        <input class="form__checkbox" type="checkbox" id="checkbox" name="checkbox">
+        <span>I agree with the terms of use</span>
+      </label>
+    </form>
+</section>
+
   <section class="menu" id="menu">
     <h4 class="menu__title">Menu</h4>
     <p class="menu__subtitle">We brew coffee from locally roasted, Fairtrade certified beans and use biodegradable cups.
