@@ -37,7 +37,6 @@
   display: flex;
   justify-content: center; /* center horizontally */
   align-items: center; /* center vertically */
-  height: 100vh;
   column-gap: 40px;
   padding-bottom: 215px;
 }
@@ -45,7 +44,6 @@
 .recipes__videos-aeropress,
 .recipes__videos-french {
   color: #ffff;
-  flex: 1;
   display: flex;
   flex-direction: column;
   justify-content: center;
