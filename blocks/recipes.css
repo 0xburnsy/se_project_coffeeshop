@@ -54,10 +54,6 @@
   margin: 0;
 }
 
-.recipes__iframe {
-  padding-bottom: 24px;
-}
-
 .recipes__video-caption {
   display: flex;
   justify-content: space-between;
@@ -66,5 +62,5 @@
   font-weight: 500;
   font-size: 20px;
   line-height: 30px;
-  margin-top: 0;
+  padding-top: 24px;
 }

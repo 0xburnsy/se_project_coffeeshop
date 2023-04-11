@@ -27,7 +27,7 @@
 
 .card__list-item {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   width: 100%;
   padding-bottom: 16px;
   font-family: "Noto Serif";
@@ -39,4 +39,6 @@
 
 .card__list-divider {
   flex-grow: 1;
+  border-bottom: 1px solid black; /* adjust border style as needed */
+  margin: 0 10px;
 }

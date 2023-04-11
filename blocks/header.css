@@ -46,7 +46,6 @@
   line-height: 30px;
 }
 
-/* use absolute positioning */
 .header__image {
   position: absolute;
   max-width: 646px;
@@ -99,4 +98,3 @@
   line-height: 20px;
   color: #838383
 }
-
