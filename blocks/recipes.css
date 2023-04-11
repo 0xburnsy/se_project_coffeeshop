@@ -52,6 +52,10 @@
   margin: 0;
 }
 
+.recipes__iframe {
+  border: none;
+}
+
 .recipes__video-caption {
   display: flex;
   justify-content: space-between;
