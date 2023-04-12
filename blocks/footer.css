@@ -3,20 +3,18 @@
   color: white;
 }
 
-.footer__logo {
-  width: 116xpx;
-  height: 21px;
-}
-
 .footer__content {
   display: flex;
   flex-direction: column;
   align-items: flex-end;
   justify-content: space-between;
   padding: 60px 100px 108px 80px;
-  display: flex;
-  justify-content: space-between;
-  padding: 60px 100px 108px 80px;
+}
+
+.footer__logo {
+  margin-right: auto;
+  width: 116px;
+  height: 21px;
 }
 
 .footer__social-heading {
