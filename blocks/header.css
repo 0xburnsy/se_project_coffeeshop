@@ -57,25 +57,10 @@
   z-index: 0;
 }
 
-.header__paragraph {
-  display: flex;
-  justify-content: flex-start;
-  flex-direction: column;
-  position: absolute;
-  bottom: 40px;
-  left: 80px;
-  font-family: "Inter", "Arial", "Sans-Serif";
-  font-style: normal;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 20px;
-  color: #838383;
-}
-
 .header__footer {
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  align-items: flex-end;
   font-family: "Inter", "Arial", "Sans-Serif";
   font-style: normal;
   font-weight: 500;
@@ -87,12 +72,13 @@
   box-sizing: border-box;
 }
 
-.header__footer-address {
+.header__paragraph {
   display: flex;
   justify-content: flex-start;
+  flex-direction: column;
   position: absolute;
   bottom: 40px;
-  right: 80px;
+  left: 80px;
   font-family: "Inter", "Arial", "Sans-Serif";
   font-style: normal;
   font-weight: 500;
