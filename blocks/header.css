@@ -32,7 +32,7 @@
   font-weight: normal;
   font-size: 60px;
   line-height: 72px;
-  color: #2F80ED;
+  color: #2f80ed;
 }
 
 .header__description {
@@ -64,19 +64,19 @@
   position: absolute;
   bottom: 40px;
   left: 80px;
-  font-family: "Inter";
+  font-family: "Inter", "Arial", "Sans-Serif";
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 20px;
-  color: #838383
+  color: #838383;
 }
 
 .header__footer {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  font-family: "Inter";
+  font-family: "Inter", "Arial", "Sans-Serif";
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -93,10 +93,10 @@
   position: absolute;
   bottom: 40px;
   right: 80px;
-  font-family: "Inter";
+  font-family: "Inter", "Arial", "Sans-Serif";
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 20px;
-  color: #838383
+  color: #838383;
 }

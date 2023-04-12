@@ -16,7 +16,7 @@
   position: relative;
   justify-content: flex-end;
   overflow: hidden;
-  background-color: #0A2850;
+  background-color: #0a2850;
   color: #ffffff;
 }
 
@@ -27,7 +27,7 @@
   padding-left: 80px;
   padding-top: 100px;
   margin: 0;
-  font-family: "Inter";
+  font-family: "Inter", "Arial", "Sans-Serif";
   font-style: normal;
   font-weight: 500;
   font-size: 44px;
@@ -35,15 +35,6 @@
 }
 
 .about__circle_type_blurred {
-  background-color: #2f80ed;
-  width: 426px;
-  height: 426px;
-  border-radius: 50%;
-  position: absolute;
-  top: -152px;
-  left: -129px;
-  overflow: hidden;
-  z-index: 0;
   animation: pulsate 1.3s ease-in-out infinite;
 }
 
@@ -75,9 +66,13 @@
   padding-top: 0;
   padding-bottom: 20px;
   margin: 0;
-  font-family: "Noto Serif";
+  font-family: "Noto Serif", "Times New Roman", Serif;
   font-style: normal;
   font-weight: normal;
   font-size: 20px;
   line-height: 30px;
+}
+
+.about__paragraph:last-child {
+  padding-bottom: 0px;
 }
