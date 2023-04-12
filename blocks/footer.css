@@ -1,6 +1,5 @@
-.footer
-{
-  background: linear-gradient(180deg, #0A2850 0%, #071931 100%);
+.footer {
+  background: linear-gradient(180deg, #0a2850 0%, #071931 100%);
   color: white;
 }
 
@@ -17,6 +16,8 @@
 
 .footer__social-heading {
   padding-bottom: 16px;
+  margin-top: 0;
+  margin-bottom: 0;
   font-family: "Inter";
   font-style: normal;
   font-weight: bold;
@@ -43,6 +44,10 @@
   line-height: 20px;
 }
 
+.footer__list-item:last-child {
+  padding-bottom: 0px;
+}
+
 .footer__social-icon {
   width: 16px;
   height: 16px;
@@ -55,13 +60,14 @@
 }
 
 .footer__social-link:hover {
-  color: #C1C1C1;
+  color: #c1c1c1;
 }
 
 .footer__copyright {
   display: flex;
   padding-left: 80px;
   padding-bottom: 60px;
+  margin: 0;
   font-family: "Inter";
   font-style: normal;
   font-weight: normal;
