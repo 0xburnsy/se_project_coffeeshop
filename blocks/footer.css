@@ -4,6 +4,11 @@
   color: white;
 }
 
+.footer__logo {
+  width: 116xpx;
+  height: 21px;
+}
+
 .footer__content {
   display: flex;
   justify-content: space-between;
