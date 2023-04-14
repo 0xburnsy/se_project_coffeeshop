@@ -9,7 +9,7 @@
   display: block;
   padding-bottom: 8px;
   padding-top: 32px;
-  font-family: "Inter", "Arial", Sans-Serif;
+  font-family: "Inter", "Arial", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -27,7 +27,7 @@
 }
 
 .form__input::placeholder {
-  font-family: "Inter", "Arial", Sans-Serif;
+  font-family: "Inter", "Arial", sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 20px;
@@ -47,7 +47,7 @@
   transition: opacity 0.5s ease;
   margin-top: 32px;
   margin-bottom: 32px;
-  font-family: "Inter", "Arial", Sans-Serif;
+  font-family: "Inter", "Arial", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
