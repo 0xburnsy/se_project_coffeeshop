@@ -11,26 +11,24 @@
   background-size: cover;
 }
 
-/* remove relative & do flexbox */
 .header__title {
   display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
   max-width: 729px;
+  padding-top: 202px;
+  padding-left: 80px;
+  padding-bottom: 28px;
+  margin: 0;
   font-style: normal;
   font-weight: 500;
   font-size: 60px;
   line-height: 72px;
-  position: relative;
-  top: 202px;
-  left: 80px;
   z-index: 2;
 }
 
-/* needs a flexbox */
 .header__span-accent {
-  display: block;
-  position: absolute;
-  top: -80px;
-  max-width: 729px;
   font-family: "Noto Serif", "Times New Roman", serif;
   font-style: italic;
   font-weight: normal;
@@ -39,11 +37,13 @@
   color: #2f80ed;
 }
 
-/* needs a flex box */
 .header__description {
-  position: relative;
-  left: 80px;
-  top: 233px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding-top: 0px;
+  padding-left: 80px;
+  margin: 0;
   max-width: 683px;
   font-family: "Noto Serif", "Times New Roman", serif;
   font-style: normal;
@@ -81,8 +81,6 @@
   display: flex;
   justify-content: flex-start;
   flex-direction: column;
-  bottom: 40px;
-  left: 80px;
   font-family: "Inter", "Arial", sans-serif;
   font-style: normal;
   font-weight: 500;
