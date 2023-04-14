@@ -23,6 +23,7 @@
   border-radius: 4px;
   padding-left: 10px;
   padding-right: 10px;
+  border: 1px solid #ccc;
 }
 
 .form__input::placeholder {
