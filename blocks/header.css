@@ -65,7 +65,6 @@
 .header__footer {
   display: flex;
   justify-content: space-between;
-  align-items: flex-end;
   font-family: "Inter", "Arial", sans-serif;
   font-style: normal;
   font-weight: 500;
@@ -79,12 +78,13 @@
 
 .header__paragraph {
   display: flex;
-  justify-content: flex-end;
-  flex-direction: column;
+  flex-direction: row;
   font-family: "Inter", "Arial", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 20px;
   color: #838383;
+  margin: 0;
+  z-index: 3;
 }
