@@ -72,8 +72,10 @@
   line-height: 20px;
   color: #838383;
   margin-top: auto;
-  padding: 40px 80px 0;
   box-sizing: border-box;
+  padding-left: 80px;
+  padding-right: 80px;
+  padding-bottom: 40px;
 }
 
 .header__paragraph {
