@@ -78,6 +78,7 @@
 
 .header__paragraph {
   display: flex;
+  align-items: flex-end;
   flex-direction: row;
   font-family: "Inter", "Arial", sans-serif;
   font-style: normal;
